@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="|{@ZlB*)tsV:A;zgSM|u">mySprite</variable><variable id="5a_a5repz1gW0r?z^qN+">picture</variable><variable type="KIND_SpriteKind" id="Y9|ka(hg8Q3s(#RUhf:~">Player</variable><variable type="KIND_SpriteKind" id="Sw)vksfeB|1s+RP,}o9f">Projectile</variable><variable type="KIND_SpriteKind" id="0*%V,+o1BBbM]21PH-{*">Food</variable><variable type="KIND_SpriteKind" id="-)kgbIC{O%rYiWKxXLkr">Enemy</variable><variable type="KIND_SpriteKind" id="y-,s75P*fJP!{SKiL7:,">Button1</variable></variables><block type="pxt-on-start" id="|vLGxU6n)`W1vTXLe|xx" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="a=PN=W#Y;^BQ=vK$+zn5"><value name="img"><shadow type="background_image_picker" id="GE6?R2U,+j9;wLk4+0bo"><field name="img">assets.image`Hi`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image5"}}</data></shadow></value><next><block type="variables_set" id="_2ichJaw{Nc9*Rrp+Uq/"><field name="VAR" id="|{@ZlB*)tsV:A;zgSM|u">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="x9MWnoyfa-cIF~=6%e(3"><value name="img"><shadow type="screen_image_picker" id="]%rO{ulx)WR[#2oI7BlS"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+9 9 9 9 9 9 9 9 9 9 9 9 . . . . 
+2 2 2 9 9 9 9 9 9 9 2 9 . . . . 
+2 9 2 9 9 9 9 9 9 9 9 9 . . . . 
+2 2 2 9 2 2 2 2 2 9 2 9 . . . . 
+2 9 2 9 2 9 2 9 2 9 2 9 . . . . 
+2 2 2 9 2 9 2 9 2 9 2 9 . . . . 
+9 9 9 9 9 9 9 9 9 9 9 9 . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"]%rO{ulx)WR[#2oI7BlS"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="pBI%88~53.25EyGzlhH9"><field name="MEMBER">Button1</field></shadow></value></block></value></block></next></block></statement></block><block type="Sprite_blockCombine_get" id="[YE$Wm?=4#Di(mesbU[]" disabled="true" x="180" y="660"><field name="property">Sprite.x</field></block></xml>
